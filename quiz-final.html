@@ -1,0 +1,1176 @@
+<html>
+<head>
+<link href='stylesheet.css' rel='stylesheet' type='text/css'>
+
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="jquery.animate.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		var score = 0;
+		
+		$("#opening").fadeIn("slow");
+		
+		$("#opening").click(function(){
+			$("#opening").fadeOut("slow");
+			$("#question1").fadeIn("slow");
+		});
+		
+		
+		$("#real1").click(function(){
+			$("#question1").fadeOut("slow");
+			$("#answer1").fadeIn("slow");
+			score++; 
+		});
+		
+		$("#fake1").click(function(){
+			$("#question1").fadeOut("slow");
+			$("#answer1b").fadeIn("slow");
+		});
+		
+		$(".a1next").click(function(){
+			$("#answer1").fadeOut("slow");
+			$("#answer1b").fadeOut("slow");
+			$("#question2").fadeIn("slow");
+		});
+		
+		$("#real2").click(function(){
+			$("#question2").fadeOut("slow");
+			$("#answer2b").fadeIn("slow");
+		});
+		
+		$("#fake2").click(function(){
+			$("#question2").fadeOut("slow");
+			$("#answer2").fadeIn("slow");					
+			score++; 
+		});
+		
+		$(".a2next").click(function(){
+			$("#answer2").fadeOut("slow");
+			$("#answer2b").fadeOut("slow");
+			$("#question3").fadeIn("slow");
+		});
+		
+		$("#real3").click(function(){
+			$("#question3").fadeOut("slow");
+			$("#answer3").fadeIn("slow");
+			score++; 
+		});
+		
+		$("#fake3").click(function(){
+			$("#question3").fadeOut("slow");
+			$("#answer3b").fadeIn("slow");			
+		});
+		
+		$(".a3next").click(function(){
+			$("#answer3").fadeOut("slow");
+			$("#answer3b").fadeOut("slow");
+			$("#question4").fadeIn("slow");
+		});
+		
+		$("#real4").click(function(){
+			$("#question4").fadeOut("slow");
+			$("#answer4b").fadeIn("slow");
+		});
+		
+		$("#fake4").click(function(){
+			$("#question4").fadeOut("slow");
+			$("#answer4").fadeIn("slow");
+			score++; 
+		});
+		
+		$(".a4next").click(function(){
+			$("#answer4").fadeOut("slow");
+			$("#answer4b").fadeOut("slow");
+			$("#question5").fadeIn("slow");
+		});
+		
+		$("#real5").click(function(){
+			$("#question5").fadeOut("slow");
+			$("#answer5").fadeIn("slow");			
+			score++; 
+		});
+		
+		$("#fake5").click(function(){
+			$("#question5").fadeOut("slow");
+			$("#answer5b").fadeIn("slow");
+		});
+		
+		$(".a5next").click(function(){
+			$("#answer5").fadeOut("slow");
+			$("#answer5b").fadeOut("slow");
+			$("#question6").fadeIn("slow");
+		});
+		
+		$("#real6").click(function(){
+			$("#question6").fadeOut("slow");
+			$("#answer6b").fadeIn("slow");
+		});
+		
+		$("#fake6").click(function(){
+			$("#question6").fadeOut("slow");
+			$("#answer6").fadeIn("slow");
+			score++; 
+		});
+		
+		$(".a6next").click(function(){
+			$("#answer6").fadeOut("slow");
+			$("#answer6b").fadeOut("slow");
+			$("#question7").fadeIn("slow");
+		});
+		
+		$("#real7").click(function(){
+			$("#question7").fadeOut("slow");
+			$("#answer7").fadeIn("slow");			
+			score++; 
+		});
+		
+		$("#fake7").click(function(){
+			$("#question7").fadeOut("slow");
+			$("#answer7b").fadeIn("slow");			
+		});
+		
+		$(".a7next").click(function(){
+			$("#answer7").fadeOut("slow");
+			$("#answer7b").fadeOut("slow");
+			$("#question8").fadeIn("slow");
+		});
+		
+		$("#real8").click(function(){
+			$("#question8").fadeOut("slow");
+			$("#answer8b").fadeIn("slow");
+		});
+		
+		$("#fake8").click(function(){
+			$("#question8").fadeOut("slow");
+			$("#answer8").fadeIn("slow");			
+			score++; 
+		});
+		
+		$(".a8next").click(function(){
+			$("#answer8").fadeOut("slow");
+			$("#answer8b").fadeOut("slow");
+			$("#question9").fadeIn("slow");
+		});
+		
+		$("#real9").click(function(){
+			$("#question9").fadeOut("slow");
+			$("#answer9").fadeIn("slow");			
+			score++; 
+		});
+		
+		$("#fake9").click(function(){
+			$("#question9").fadeOut("slow");
+			$("#answer9b").fadeIn("slow");
+		});
+		
+		$(".a9next").click(function(){
+			$("#answer9").fadeOut("slow");
+			$("#answer9b").fadeOut("slow");
+			$("#question10").fadeIn("slow");
+		});
+		
+		$("#real10").click(function(){
+			$("#question10").fadeOut("slow");
+			$("#answer10b").fadeIn("slow");
+		});
+		
+		$("#fake10").click(function(){
+			$("#question10").fadeOut("slow");
+			$("#answer10").fadeIn("slow");						
+			score++; 
+		});
+		
+		$(".a10next").click(function(){
+			$("#answer10").fadeOut("slow");
+			$("#answer10b").fadeOut("slow");
+			$("#question11").fadeIn("slow");
+		});
+		
+		$("#real11").click(function(){
+			$("#question11").fadeOut("slow");
+			$("#answer11").fadeIn("slow");
+			score++; 
+		});
+		
+		$("#fake11").click(function(){
+			$("#question11").fadeOut("slow");
+			$("#answer11b").fadeIn("slow");
+		});
+		
+		$(".a11next").click(function(){
+			$("#answer11").fadeOut("slow");
+			$("#answer11b").fadeOut("slow");
+			$("#question12").fadeIn("slow");
+		});
+		
+		$("#real12").click(function(){
+			$("#question12").fadeOut("slow");
+			$("#answer12").fadeIn("slow");
+			score++; 
+		});
+		
+		$("#fake12").click(function(){
+			$("#question12").fadeOut("slow");
+			$("#answer12b").fadeIn("slow");
+		});
+		
+		$(".a12next").click(function(){
+			$("#answer12").fadeOut("slow");
+			$("#answer12b").fadeOut("slow");
+			$("#question13").fadeIn("slow");
+		});
+		
+		$("#real13").click(function(){
+			$("#question13").fadeOut("slow");
+			$("#answer13").fadeIn("slow");
+			score++; 
+		});
+		
+		$("#fake13").click(function(){
+			$("#question13").fadeOut("slow");
+			$("#answer13b").fadeIn("slow");
+		});
+		
+		$(".a13next").click(function(){
+			$("#answer13").fadeOut("slow");
+			$("#answer13b").fadeOut("slow");
+			$("#closingtime").fadeIn("slow");
+			$("#score").html("<h1>"+score+"</h1>");	
+				
+			var final = escape($("#score").html);
+			var tweet = escape("Who is a real athlete and who is made up? I scored "+score+"/13 on the #IndySportsWeekly quiz. Can you beat me?");
+		
+		$('a.tweet').click(function(e){
+  			e.preventDefault();
+  			var loc = $(this).attr('href');
+  			var title  = tweet;
+  			window.open('http://twitter.com/share?url=' + loc + '&text=' + title + '&', 'twitterwindow', 'height=450, width=550, top='+($(window).height()/2 - 225) +', left='+$(window).width()/2 +', toolbar=0, location=0, menubar=0, directories=0, scrollbars=0');
+ 
+		});
+		
+		
+});
+		
+	});
+</script>
+
+<style type="text/css">
+body {
+	font-family: 'akzidenz-grotesk_bq_extra_cBd';
+	position: absolute;
+	margin-left: 0;
+	margin-top: 0;
+	background-color:000000;
+	width: 1016px;
+	height: 762px;
+	overflow-x: hidden;
+	overflow-y: hidden; 
+}
+
+h1 {
+	font-family: 'akzidenz-grotesk_bq_extra_cBd';
+	size: 100px;
+	color: #ffffff;
+}
+#button1 {
+	height: 50px;
+	width: 50px;
+	background-color: red;
+}
+
+.question {
+	text-align: center;
+	font-size: 100px;
+	line-height: 200px;
+	letter-spacing: 10px;
+}
+
+.slide {
+	width: 1016px;
+	height: 762px;
+	overflow: hidden;
+	position:absolute;
+	margin-left:0;
+	margin-top:0;
+	opacity: 0;
+}
+
+.bluebut {
+	font-family: 'akzidenz-grotesk_bq_extra_cBd';
+	width: 120px;
+	height: 120px;
+	background-image: url('images/bt-real-01.png');
+	background-size: 120px 120px;
+	position:absolute;
+	margin-top: 575px;
+	margin-left: 300px;
+	vertical-align: center;
+	text-align: center;
+}
+
+.bluebut:hover, .redbut:hover { cursor: pointer; }
+
+.redbut {
+	font-family: 'akzidenz-grotesk_bq_extra_cBd';
+	width: 120px;
+	height: 120px;
+	background-image: url('images/bt-fake-01.png');
+	background-size: 120px 120px;
+	position:absolute;
+	margin-top: 575px;
+	margin-left: 600px;
+	vertical-align: center;
+	text-align: center;
+}
+
+#question1 {
+	background-image: url('images/IN4qiz2.jpg');
+	background-size: 1024px 768px;
+	z-index:39;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer1 {
+	background-image: url('images/IN4qiz3.jpg');
+	background-size: 1024px 768px;
+	z-index:38;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer1b {
+	background-image: url('images/IN4qiz4.jpg');
+	background-size: 1024px 768px;
+	z-index:37;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+		#question2 {
+	background-image: url('images/IN4qiz5.jpg');
+	background-size: 1024px 768px;
+	z-index:36;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer2 {
+	background-image: url('images/IN4qiz6.jpg');
+	background-size: 1024px 768px;
+	z-index:35;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer2b {
+	background-image: url('images/IN4qiz7.jpg');
+	background-size: 1024px 768px;
+	z-index:34;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#question3 {
+	background-image: url('images/IN4qiz8.jpg');
+	background-size: 1024px 768px;
+	z-index:33;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer3 {
+	background-image: url('images/IN4qiz9.jpg');
+	background-size: 1024px 768px;
+	z-index:32;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer3b {
+	background-image: url('images/IN4qiz10.jpg');
+	background-size: 1024px 768px;
+	z-index:31;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#question4 {
+	background-image: url('images/IN4qiz11.jpg');
+	background-size: 1024px 768px;
+	z-index:30;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer4 {
+	background-image: url('images/IN4qiz12.jpg');
+	background-size: 1024px 768px;
+	z-index:29;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer4b {
+	background-image: url('images/IN4qiz13.jpg');
+	background-size: 1024px 768px;
+	z-index:28;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+#question5 {
+	background-image: url('images/IN4qiz14.jpg');
+	background-size: 1024px 768px;
+	z-index:27;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer5 {
+	background-image: url('images/IN4qiz15.jpg');
+	background-size: 1024px 768px;
+	z-index:26;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer5b {
+	background-image: url('images/IN4qiz16.jpg');
+	background-size: 1024px 768px;
+	z-index:25;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#question6 {
+	background-image: url('images/IN4qiz17.jpg');
+	background-size: 1024px 768px;
+	z-index:24;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer6 {
+	background-image: url('images/IN4qiz18.jpg');
+	background-size: 1024px 768px;
+	z-index:23;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer6b {
+	background-image: url('images/IN4qiz19.jpg');
+	background-size: 1024px 768px;
+	z-index:22;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#question7 {
+	background-image: url('images/IN4qiz20.jpg');
+	background-size: 1024px 768px;
+	z-index:21;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer7 {
+	background-image: url('images/IN4qiz21.jpg');
+	background-size: 1024px 768px;
+	z-index:20;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer7b {
+	background-image: url('images/IN4qiz22.jpg');
+	background-size: 1024px 768px;
+	z-index:19;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#question8 {
+	background-image: url('images/IN4qiz23.jpg');
+	background-size: 1024px 768px;
+	z-index:18;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer8 {
+	background-image: url('images/IN4qiz24.jpg');
+	background-size: 1024px 768px;
+	z-index:17;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer8b {
+	background-image: url('images/IN4qiz25.jpg');
+	background-size: 1024px 768px;
+	z-index:16;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#question9 {
+	background-image: url('images/IN4qiz26.jpg');
+	background-size: 1024px 768px;
+	z-index:15;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer9 {
+	background-image: url('images/IN4qiz27.jpg');
+	background-size: 1024px 768px;
+	z-index:14;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer9b {
+	background-image: url('images/IN4qiz28.jpg');
+	background-size: 1024px 768px;
+	z-index:13;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#question10 {
+	background-image: url('images/IN4qiz29.jpg');
+	background-size: 1024px 768px;
+	z-index:12;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer10 {
+	background-image: url('images/IN4qiz30.jpg');
+	background-size: 1024px 768px;
+	z-index:11;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer10b {
+	background-image: url('images/IN4qiz31.jpg');
+	background-size: 1024px 768px;
+	z-index:10;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#question11 {
+	background-image: url('images/IN4qiz32.jpg');
+	background-size: 1024px 768px;
+	z-index:9;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer11 {
+	background-image: url('images/IN4qiz33.jpg');
+	background-size: 1024px 768px;
+	z-index:8;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer11b {
+	background-image: url('images/IN4qiz34.jpg');
+	background-size: 1024px 768px;
+	z-index:7;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#question12 {
+	background-image: url('images/IN4qiz35.jpg');
+	background-size: 1024px 768px;
+	z-index:6;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer12 {
+	background-image: url('images/IN4qiz36.jpg');
+	background-size: 1024px 768px;
+	z-index:5;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer12b {
+	background-image: url('images/IN4qiz37.jpg');
+	background-size: 1024px 768px;
+	z-index:4;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#question13 {
+	background-image: url('images/IN4qiz38.jpg');
+	background-size: 1024px 768px;
+	z-index:3;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer13 {
+	background-image: url('images/IN4qiz39.jpg');
+	background-size: 1024px 768px;
+	z-index:2;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#answer13b {
+	background-image: url('images/IN4qiz40.jpg');
+	background-size: 1024px 768px;
+	z-index:1;
+	position:absolute;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.answer_button {
+	font-family: 'akzidenz-grotesk_bq_extra_cBd';
+	width: 500px;
+	height: 150px;
+	font-size: 60px;
+	color: #ffffff;
+
+	border-radius: 8px 8px 8px 8px;
+	background-color: #b4cdcb;
+	margin-top: 150px;
+	margin-left: 250px;
+	vertical-align: top;
+	text-align: center;
+}
+
+.answer {
+	text-align: center;
+	margin-left: 500px;
+	font-size: 30px;
+}
+
+.explainer {
+	text-align: center;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.a1next img {
+	width: 30px;
+	height: auto;
+	position:absolute;
+	margin-top: 670px;
+	margin-left: 500px;
+}
+
+.a1next {
+	text-align: center;
+}
+
+.a1next:hover {
+	cursor:pointer;
+}
+.a2next img {
+	width: 30px;
+	height: auto;
+	position:absolute;
+	margin-top: 670px;
+	margin-left: 500px;
+}
+
+.a2next {
+	text-align: center;
+}
+
+.a2next:hover {
+	cursor:pointer;
+}
+.a3next img {
+	width: 30px;
+	height: auto;
+	position:absolute;
+	margin-top: 670px;
+	margin-left: 500px;
+}
+
+.a3next {
+	text-align: center;
+}
+
+.a3next:hover {
+	cursor:pointer;
+}
+.a4next img {
+	width: 30px;
+	height: auto;
+	position:absolute;
+	margin-top: 670px;
+	margin-left: 500px;
+}
+
+.a4next {
+	text-align: center;
+}
+
+.a4next:hover {
+	cursor:pointer;
+}
+.a5next img {
+	width: 30px;
+	height: auto;
+	position:absolute;
+	margin-top: 670px;
+	margin-left: 500px;
+}
+
+.a5next {
+	text-align: center;
+}
+
+.a5next:hover {
+	cursor:pointer;
+}
+.a6next img {
+	width: 30px;
+	height: auto;
+	position:absolute;
+	margin-top: 670px;
+	margin-left: 500px;
+}
+
+.a6next {
+	text-align: center;
+}
+
+.a6next:hover {
+	cursor:pointer;
+}
+
+.a7next img {
+	width: 30px;
+	height: auto;
+	position:absolute;
+	margin-top: 670px;
+	margin-left: 500px;
+}
+
+.a7next {
+	text-align: center;
+}
+
+.a7next:hover {
+	cursor:pointer;
+}
+.a8next img {
+	width: 30px;
+	height: auto;
+	position:absolute;
+	margin-top: 670px;
+	margin-left: 500px;
+}
+
+.a8next {
+	text-align: center;
+}
+
+.a8next:hover {
+	cursor:pointer;
+}
+.a9next img {
+	width: 30px;
+	height: auto;
+	position:absolute;
+	margin-top: 670px;
+	margin-left: 500px;
+}
+
+.a9next {
+	text-align: center;
+}
+
+.a9next:hover {
+	cursor:pointer;
+}
+.a10next img {
+	width: 30px;
+	height: auto;
+	position:absolute;
+	margin-top: 670px;
+	margin-left: 500px;
+}
+
+.a10next {
+	text-align: center;
+}
+
+.a10next:hover {
+	cursor:pointer;
+}
+.a11next img {
+	width: 30px;
+	height: auto;
+	position:absolute;
+	margin-top: 670px;
+	margin-left: 500px
+}
+
+.a11next {
+	text-align: center;
+}
+
+.a11next:hover {
+	cursor:pointer;
+}
+.a12next img {
+	width: 30px;
+	height: auto;
+	position:absolute;
+	margin-top: 670px;
+	margin-left: 500px;
+}
+
+.a12next {
+	text-align: center;
+}
+
+.a12next:hover {
+	cursor:pointer;
+}
+.a13next img {
+	width: 30px;
+	height: auto;
+	position:absolute;
+	margin-top: 670px;
+	margin-left: 500px;
+}
+
+.a13next {
+	text-align: center;
+}
+
+.a13next:hover {
+	cursor:pointer;
+}
+#opening {
+	background-image:url('images/IN4qiz1.jpg');
+	background-size: 1024px 768px;
+	z-index:40;
+	text-align:center;
+}
+
+#closingtime {
+	background-image:url('images/q1.jpg');
+	background-size: 1024px 768px;
+	z-index:0;
+	text-align:center;
+	font-size: 40px;
+	color: #ffffff;
+}
+
+#closingtext {
+	margin-top: 50px;
+}
+
+#playagain {
+	margin-top: 40px;
+
+}
+
+#playagain:hover {
+	cursor: pointer;
+}
+
+#tweet {
+	margin-top: 40px;
+
+
+}
+
+#upnext {
+	margin-top: 130px;
+
+
+}
+</style>
+<body>
+<div id="opening" class="slide">
+</div>
+
+<div id="question1" class="slide">
+	
+	<div class="buttons">
+			<div id="real1" class="bluebut"></div>
+			</div>
+			<div id="fake1" class="redbut"></div>
+			</div>
+	</div>
+</div>
+<div id="answer1" class="slide">
+	<div class="a1next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+<div id="answer1b" class="slide">
+	<div class="a1next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+
+<div id="question2" class="slide">
+	
+	<div class="buttons">
+			<div id="real2" class="bluebut"></div>
+			</div>
+			<div id="fake2" class="redbut"></div>
+			</div>
+	</div>
+</div>
+<div id="answer2" class="slide">
+	<div class="a2next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+<div id="answer2b" class="slide">
+	<div class="a2next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+
+<div id="question3" class="slide">
+	
+	<div class="buttons">
+			<div id="real3" class="bluebut"></div>
+			</div>
+			<div id="fake3" class="redbut"></div>
+			</div>
+	</div>
+</div>
+<div id="answer3" class="slide">
+	<div class="a3next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+<div id="answer3b" class="slide">
+	<div class="a3next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+
+<div id="question4" class="slide">
+	
+	<div class="buttons">
+			<div id="real4" class="bluebut"></div>
+			</div>
+			<div id="fake4" class="redbut"></div>
+			</div>
+	</div>
+</div>
+<div id="answer4" class="slide">
+	<div class="a4next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+<div id="answer4b" class="slide">
+	<div class="a4next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+
+<div id="question5" class="slide">
+	
+	<div class="buttons">
+			<div id="real5" class="bluebut"></div>
+			</div>
+			<div id="fake5" class="redbut"></div>
+			</div>
+	</div>
+</div>
+<div id="answer5" class="slide">
+	<div class="a5next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+<div id="answer5b" class="slide">
+	<div class="a5next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+
+<div id="question6" class="slide">
+	
+	<div class="buttons">
+			<div id="real6" class="bluebut"></div>
+			</div>
+			<div id="fake6" class="redbut"></div>
+			</div>
+	</div>
+</div>
+<div id="answer6" class="slide">
+	<div class="a6next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+<div id="answer6b" class="slide">
+	<div class="a6next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+
+<div id="question7" class="slide">
+	
+	<div class="buttons">
+			<div id="real7" class="bluebut"></div>
+			</div>
+			<div id="fake7" class="redbut"></div>
+			</div>
+	</div>
+</div>
+<div id="answer7" class="slide">
+	<div class="a7next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+<div id="answer7b" class="slide">
+	<div class="a7next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+
+<div id="question8" class="slide">
+	
+	<div class="buttons">
+			<div id="real8" class="bluebut"></div>
+			</div>
+			<div id="fake8" class="redbut"></div>
+			</div>
+	</div>
+</div>
+<div id="answer8" class="slide">
+	<div class="a8next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+<div id="answer8b" class="slide">
+	<div class="a8next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+
+<div id="question9" class="slide">
+	
+	<div class="buttons">
+			<div id="real9" class="bluebut"></div>
+			</div>
+			<div id="fake9" class="redbut"></div>
+			</div>
+	</div>
+</div>
+<div id="answer9" class="slide">
+	<div class="a9next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+<div id="answer9b" class="slide">
+	<div class="a9next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+
+<div id="question10" class="slide">
+	
+	<div class="buttons">
+			<div id="real10" class="bluebut"></div>
+			</div>
+			<div id="fake10" class="redbut"></div>
+			</div>
+	</div>
+</div>
+<div id="answer10" class="slide">
+	<div class="a10next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+<div id="answer10b" class="slide">
+	<div class="a10next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+
+<div id="question11" class="slide">
+	
+	<div class="buttons">
+			<div id="real11" class="bluebut"></div>
+			</div>
+			<div id="fake11" class="redbut"></div>
+			</div>
+	</div>
+</div>
+<div id="answer11" class="slide">
+	<div class="a11next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+<div id="answer11b" class="slide">
+	<div class="a11next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+
+<div id="question12" class="slide">
+	
+	<div class="buttons">
+			<div id="real12" class="bluebut"></div>
+			</div>
+			<div id="fake12" class="redbut"></div>
+			</div>
+	</div>
+</div>
+<div id="answer12" class="slide">
+	<div class="a12next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+<div id="answer12b" class="slide">
+	<div class="a12next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+
+<div id="question13" class="slide">
+	
+	<div class="buttons">
+			<div id="real13" class="bluebut"></div>
+			</div>
+			<div id="fake13" class="redbut"></div>
+			</div>
+	</div>
+</div>
+<div id="answer13" class="slide">
+	<div class="a13next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+<div id="answer13b" class="slide">
+	<div class="a13next">
+		<img src="images/bt-down-01.png">
+	</div>
+</div>
+
+<div id="closingtime" class="slide">
+	<div id="closingtext">You scored: <div id="score"></div> out of a possible 13 points.</div>
+	<div id="tweet"><a class="tweet" href="http://is.gd/WpKCAD"><img src="images/tweet.png" width="500px"></a></div>
+	<div id="upnext"><img src="images/upnext.png" width="500px"></div>
+</div>
+</body>
+
+</html>
